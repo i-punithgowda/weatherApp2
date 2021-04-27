@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#202463;
+}
+
+.main img{
+    height: 550px;
+    width:700px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 4px 5px black;
+}
+
+form{
+    position:absolute;
+    left:40%;
+    top:5%;
+}
+
+.inpVal{
+    font-size:1.4rem;
+    border-radius:12px;
+    background-color:#202463;
+border:none;
+outline:none;
+color:#fff;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+.btnSearch{
+    color:white;
+}
+
+.weather{
+    text-transform: capitalize;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.5rem;
+    font-weight:bold;
+    position:absolute;
+    left:43%;
+    top:20%;
+}
+
+.temp{
+   
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.5rem;
+    font-weight:bold;
+    position:absolute;
+    left:43%;
+    top:27%;
+}
+
+.date{
+   
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.5rem;
+    font-weight:bold;
+    position:absolute;
+    left:43%;
+    top:71%;
+}
+
+.city{
+   
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.5rem;
+    font-weight:bold;
+    position:absolute;
+    left:43%;
+    top:77%;
+}
